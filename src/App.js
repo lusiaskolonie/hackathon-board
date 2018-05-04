@@ -38,7 +38,7 @@ class App extends Component {
     if (!scoreTeam) {
       scoreTeam = {}
     }
-    let access_token = '8e032518869aad58c5da13dfcf3b3f33b6f24d44'
+    let access_token = '3e4c309f4e251a6c49171fa20ce43e64ebabb954'
 
     this.state.team.map((member)=>{
       member.git.map((repo)=>{
