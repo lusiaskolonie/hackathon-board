@@ -16,7 +16,7 @@ class App extends Component {
       {
         name: 'BorBok',
         git: ['https://api.github.com/repos/IroncodeCS/daily-report'],
-        score: [0,0,0,0,0,0,0,0,0,0,0,0,0]
+        score: [500,0,0,0,0,0,0,0,0,0,0,0,0]
       },
       {
         name: 'โคตรเอาเยดโด้วโคตรคูล',

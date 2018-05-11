@@ -11,7 +11,6 @@ class ScoreBox extends Component {
     let point = 0
     this.props.point.map((p) => {
       point += p
-      console.log (point)
     })
     this.setState({point})
   }
