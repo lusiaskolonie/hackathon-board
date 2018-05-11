@@ -7,7 +7,7 @@ class ScoreBox extends Component {
     point: 0
   }
 
-  componentWillReceiveProps() {
+  componentDidMount() {
     let point = 0
     this.props.point.map((p) => {
       point += p
@@ -20,11 +20,8 @@ class ScoreBox extends Component {
       <div className="score-box">
         <p className="score-title">{this.props.team}</p>
         <div>
-          <p className="last-update">Last Updated</p>
-          <p className="time-updated">{this.props.lastUpdate}</p>
           <p className="last-update">Point</p>          
           <p className="score-text">{this.state.point}</p>     
-          {/* <p><a target="_blank" href={this.props.repo.replace(/api.|repos\//g,'')}>Repo</a></p>      */}
         </div>
       </div>
     );
