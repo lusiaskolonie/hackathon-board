@@ -30,8 +30,8 @@
   position: relative;
   display: inline-block;
   width: 25%;
-  height: 500px;
-  padding: 25px;
+  max-height: 300px;
+  padding: 10px;
   box-sizing: border-box;
   margin: 10px 10px 10px 10px;
   overflow: hidden;
@@ -40,10 +40,10 @@
 
 
 .score-title {
-  font-size: 30px;
-  font-weight: bold;
-  color: #5c5c5c;
-  height: 85px;
+  font-size: 18px;
+  color: #383838;
+  padding: 5px 0;
+  margin: 0;
 }
 
 .time-box {
@@ -71,8 +71,7 @@
 .score-text {
   font-weight: bold;
   color: #03a9f4;
-  font-size:70px;
-  text-align: center;
+  font-size:50px;
 }
 
 .time-text {
@@ -83,6 +82,23 @@
 .project-text {
   color:#fff;
   font-size: 30px;
+}
+
+.score-detail {
+  display: inline-block;
+}
+
+.medal {
+  display: inline-block;
+  float:right;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
 }
 
 @keyframes App-logo-spin {
