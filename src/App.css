@@ -36,6 +36,7 @@
   margin: 10px 10px 10px 10px;
   overflow: hidden;
   text-align: left;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2)
 }
 
 
@@ -59,7 +60,7 @@
 }
 
 .last-update {
-  color: #999;
+  color: #544d4d;
 }
 
 .time-updated {
@@ -70,7 +71,7 @@
 
 .score-text {
   font-weight: bold;
-  color: #03a9f4;
+  color: #2d5a6f;
   font-size:50px;
 }
 

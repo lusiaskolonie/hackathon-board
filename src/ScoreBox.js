@@ -8,19 +8,22 @@ class ScoreBox extends Component {
     showMedal: 'hide'
   }
 
+  componentWillReceiveProps() {
+
+  }
+
   componentDidMount() {
     let point = 0
     this.props.point.map((p) => {
       point += p
     })
     this.setState({point})
-
     if (this.props.medal) {
       this.setState({showMedal: 'show'})
     }
   }
 
-  
+
 
   render() {
     return (
